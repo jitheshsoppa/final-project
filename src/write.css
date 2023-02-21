@@ -1,0 +1,114 @@
+.write {
+    padding-top: 50px;
+    width: 100vw;
+    padding: 32px 96px ;
+  }
+  
+  .writeImg {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writeForm {
+    position: relative;
+  }
+  
+  .writeFormGroup {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 32px 0;
+  }
+  
+  .writeIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(129, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .writeInput {
+    font-size: 30px;
+    /* border: none; */
+    margin: 20px 0;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+
+  }
+
+  .write-file-upload-label{
+    background-color: aliceblue;
+    border: 1px solid #7F56D9;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .writeInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  
+  .writeInput:focus {
+    outline-style: none;
+  }
+  
+  .writeText {
+    width: 70vw;
+    height: 100vh;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .write-publish-btn {
+    margin: 24px 0px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+   
+  }
+
+  .write-publish-btn-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+  }
+
+
+.write-editor-wrapper{
+  border: 1px solid #ddd;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column;
+ 
+} 
+
+.write-editor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px !important;
+}
+
